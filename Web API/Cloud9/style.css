@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif; /* Sets the font family for the body element to Arial or a generic sans-serif as a fallback. */
+    margin: 20px; /* Adds a margin of 20 pixels around the body content. */
+}
+
+.form-group label {
+    margin: 10px 0; /* Adds a vertical margin of 10 pixels above and below each label within a form group, but no horizontal margin. */
+    display: block; /* Makes the label elements display as block-level elements, causing them to span the full width available. */
+}
+
+input[type="text"] {
+    margin: 5px 0; /* Adds a vertical margin of 5 pixels above and below each text input field, but no horizontal margin. */
+    display: block; /* Makes text input fields display as block-level elements, causing them to span the full width available. */
+    width: 95%; /* Sets the width of text input fields to 95% of their containing element's width. */
+    padding: 8px; /* Adds 8 pixels of padding inside each text input field. */
+    border: 1px solid #ccc; /* Adds a 1-pixel solid border with a light gray color (#ccc) around text input fields. */
+    border-radius: 4px; /* Rounds the corners of text input fields with a radius of 4 pixels. */
+}
+
+#predictionResult {
+    margin-top: 20px; /* Adds a top margin of 20 pixels to the element with the ID 'predictionResult'. */
+}
+
+.result {
+    margin-top: 20px; /* Adds a top margin of 20 pixels to elements with the class 'result'. */
+    padding: 10px; /* Adds 10 pixels of padding inside elements with the class 'result'. */
+    border: 1px solid #ddd; /* Adds a 1-pixel solid border with a very light gray color (#ddd) around elements with the class 'result'. */
+    background-color: #f9f9f9; /* Sets the background color of elements with the class 'result' to a very light gray (#f9f9f9). */
+    font-size: 20px; /* Sets the font size of text inside elements with the class 'result' to 20 pixels. */
+    color: #333; /* Sets the text color inside elements with the class 'result' to a dark gray (#333). */
+}
