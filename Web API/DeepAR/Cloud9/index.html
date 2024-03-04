@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h2>DeepAR Sales Prediction</h2>
+    <form id="predictionForm">
+        <label for="countryCode">Country Code:</label>
+        <input type="number" id="countryCode" name="countryCode" value="1"><br><br>
+
+        <label for="salesData">Sales Data (comma-separated):</label>
+        <input type="text" id="salesData" name="salesData" value="200,150,180,210,190,170,160"><br><br>
+
+        <label for="startDate">Start Date:</label>
+        <input type="text" id="startDate" name="startDate" value="2021-01-01"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <div id="result"></div>
+    <!-- Add the canvas element for the chart -->
+    <canvas id="myChart" width="400" height="200"></canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
